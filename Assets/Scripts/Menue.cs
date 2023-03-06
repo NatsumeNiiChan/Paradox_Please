@@ -13,6 +13,14 @@ public class Menue : MonoBehaviour
         
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            MainMenue.SetActive(true);
+        }
+    }
+
     public void StartGame()
     {
         SceneManager.LoadScene("Level_1");
@@ -35,8 +43,18 @@ public class Menue : MonoBehaviour
         Options.SetActive(false);
     }
 
+    public void Resume()
+    {
+        MainMenue.SetActive(false);
+    }
+    
+    public void Leave()
+    {
+        SceneManager.LoadScene("StartScreen");
+    }
+    
     public void Quit()
     {
-
+        Application.Quit();
     }
 }

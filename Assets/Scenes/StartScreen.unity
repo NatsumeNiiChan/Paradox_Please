@@ -1212,7 +1212,7 @@ GameObject:
   - component: {fileID: 889487134}
   - component: {fileID: 889487133}
   m_Layer: 0
-  m_Name: MenueHandler
+  m_Name: MenueManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1232,6 +1232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainMenue: {fileID: 2062976898}
   Options: {fileID: 227453350}
+  PauseScreen: {fileID: 0}
 --- !u!4 &889487134
 Transform:
   m_ObjectHideFlags: 0
