@@ -6,8 +6,11 @@ public class HouseEnter : MonoBehaviour
 {
     public GameObject Player;
 
+    public GameObject House;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Player.transform.position = new Vector3(0, 0, 0);
+        Player.transform.position = House.transform.position;
+        
     }
 }
