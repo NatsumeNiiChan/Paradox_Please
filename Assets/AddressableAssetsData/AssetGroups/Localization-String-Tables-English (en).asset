@@ -18,7 +18,7 @@ MonoBehaviour:
   m_GUID: 6124617b4afc87746858f0b7cd1b11b9
   m_SerializeEntries:
   - m_GUID: 6812d302ea2f3f642b0e733718ac5870
-    m_Address: NPCTalk_en
+    m_Address: NPC_One_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

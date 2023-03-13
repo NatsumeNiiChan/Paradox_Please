@@ -10,20 +10,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: NPCTalk_en
+  m_Name: NPC_One_de
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: en
+    m_Code: de
   m_SharedData: {fileID: 11400000, guid: c5443938faeba6a40a76a98b3989ab6b, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
   - m_Id: 82861228032
-    m_Localized: Hello
+    m_Localized: Hallo
     m_Metadata:
       m_Items: []
   - m_Id: 154223116288
-    m_Localized: Nice Weather!
+    m_Localized: Gutes Wetter!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2521791652823040
+    m_Localized: Hey..?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2521862083575808
+    m_Localized: Wilkommen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2521878391029760
+    m_Localized: Wer bist du?
     m_Metadata:
       m_Items: []
   references:

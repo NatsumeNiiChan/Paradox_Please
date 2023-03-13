@@ -10,17 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: NPCTalk Shared Data
+  m_Name: NPC_One Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: NPCTalk
+  m_TableCollectionName: NPC_One
   m_TableCollectionNameGuidString: c5443938faeba6a40a76a98b3989ab6b
   m_Entries:
   - m_Id: 82861228032
-    m_Key: Greeting
+    m_Key: Text 1
     m_Metadata:
       m_Items: []
   - m_Id: 154223116288
-    m_Key: Smalltalk
+    m_Key: Text 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2521791652823040
+    m_Key: Text 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2521862083575808
+    m_Key: Text 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2521878391029760
+    m_Key: Text 5
     m_Metadata:
       m_Items: []
   m_Metadata:
