@@ -20,31 +20,15 @@ public class TalkingNPC : MonoBehaviour
 
     int count = 0;
 
-    [SerializeField]
-
-    private LocalizedStringTable localizedStringTable;
-
-    private StringTable currentStringTable;
-
-
-    private IEnumerator Start()
+    private void Awake()
     {
-        var tableLoading = localizedStringTable.GetTable();
-        yield return tableLoading;
-        currentStringTable = tableLoading;
-
-        var str = currentStringTable["NPC_One"].LocalizedValue;
+        Texts = new string[]
+        {
+            "Hello",
+            "Nice Weather!",
+            "Blub"
+        };
     }
-
-    //private void Awake()
-    //{
-    //    Texts = new string[]
-    //    {
-    //        "Hello",
-    //        "Nice Weather!",
-    //        "Blub"
-    //    };
-    //}
 
     private void Update()
     {
