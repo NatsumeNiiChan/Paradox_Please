@@ -8,28 +8,34 @@ using UnityEngine.Localization.Tables;
 
 public class TalkNPCOne : MonoBehaviour
 {
-    public GameObject TextboxOne;
-    public GameObject Textfield;
+    //public GameObject TextboxOne;
+    //public GameObject Textfield;
 
-    [SerializeField]
-    private LocalizedString localizedString;
+    //[SerializeField]
+    //private LocalizedString localizedString;
 
 
-    private void Awake()
-    {
-        TextboxOne = GameObject.Find("TextNPCOne");
-        Textfield = GameObject.Find("Textbox");
+    //private void Awake()
+    //{
+    //    TextboxOne = GameObject.Find("TextNPCOne");
+    //    Textfield = GameObject.Find("Textbox");
 
-        TextboxOne.SetActive(false);
-        Textfield.SetActive(false);
-    }
+    //    //TextboxOne.SetActive(false);
+    //    //Textfield.SetActive(false);
+    //}
 
-    private void Start()
-    {
-        string key = "Text 1";
-        //localizedString.TableEntryReference = new TableEntryReference(key);
-        string value = localizedString.GetLocalizedString();
+    //private void Start()
+    //{
+    //    string key = "Text 1";
+    //    //localizedString.TableEntryReference = new TableEntryReference(key);
+    //    string value = localizedString.GetLocalizedString();
 
-        Debug.Log("Localized Value:" + value);
-    }
+    //    Debug.Log("Localized Value:" + value);
+    //}
+
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    TextboxOne.SetActive(true);
+    //    Textfield.SetActive(true);
+    //}
 }

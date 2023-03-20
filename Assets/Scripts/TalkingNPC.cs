@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Tables;
+using UnityEditor;
 
 public class TalkingNPC : MonoBehaviour
 {
@@ -14,30 +15,34 @@ public class TalkingNPC : MonoBehaviour
     //public GameObject TextBoxNPC4;
     public GameObject TextField;
 
-    public string[] Texts;
+    //public string[] Texts;
 
     public string texts;
 
     int count = 0;
 
+    public LocalizedString myString;
+    private string localizedText;
+
     private void Awake()
     {
-        Texts = new string[]
-        {
-            "Hello",
-            "Nice Weather!",
-            "Blub"
-        };
+        //Texts = new string[]
+        //{
+        //    "Hello",
+        //    "Nice Weather!",
+        //    "Blub"
+        //};
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && count < Texts.Length - 1)
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             count++;
+            myString.TableEntryReference = localizedText;
         }
 
-        texts = Texts[count];
+        texts = localizedText;
         GetText();
     }
 
@@ -61,5 +66,25 @@ public class TalkingNPC : MonoBehaviour
         {
             TextBoxNPC1.GetComponent<TMP_Text>().text = texts;
         }
+    }
+
+    private void OnEnable()
+    {
+        myString.StringChanged += UpdateString;
+    }
+
+    private void OnDisable()
+    {
+        myString.StringChanged -= UpdateString;
+    }
+
+    private void UpdateString(string count)
+    {
+        localizedText = count;
+    }
+
+    private void OnGUI()
+    {
+        EditorGUILayout.LabelField(localizedText);
     }
 }
