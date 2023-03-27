@@ -54,6 +54,10 @@ MonoBehaviour:
     m_Localized: Weiter spielen
     m_Metadata:
       m_Items: []
+  - m_Id: 7531132659302400
+    m_Localized: "Dr\xFCcke \"E\" zum Betreten"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

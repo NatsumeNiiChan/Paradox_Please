@@ -1,14 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
-public class HouseEnter : MonoBehaviour
+public class HouseExit : MonoBehaviour
 {
     public GameObject Player;
 
-    public GameObject House;
-    public GameObject Enter;
+    public GameObject Garden;
+    public GameObject Exit;
 
     public bool Collision = false;
 
@@ -21,22 +20,20 @@ public class HouseEnter : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && Collision == true)
         {
-            Debug.Log("Works");
-
-            Player.transform.position = House.transform.position;
+            Player.transform.position = Garden.transform.position;
         }
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        Enter.SetActive(true);
+        Exit.SetActive(true);
 
         Collision = true;
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Enter.SetActive(false);
+        Exit.SetActive(false);
 
         Collision = false;
     }

@@ -54,6 +54,10 @@ MonoBehaviour:
     m_Localized: Resume
     m_Metadata:
       m_Items: []
+  - m_Id: 7531132659302400
+    m_Localized: Press "E" to enter
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

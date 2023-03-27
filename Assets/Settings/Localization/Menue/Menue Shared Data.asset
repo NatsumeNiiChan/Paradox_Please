@@ -51,6 +51,10 @@ MonoBehaviour:
     m_Key: Play
     m_Metadata:
       m_Items: []
+  - m_Id: 7531132659302400
+    m_Key: Press "E"
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
