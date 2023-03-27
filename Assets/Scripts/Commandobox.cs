@@ -7,8 +7,11 @@ public class Commandobox : MonoBehaviour
 {
     public GameObject Textbox;
     public TMP_InputField CommandText;
+    public GameObject UIText;
 
-    private string CommandDoor = "Set Door to Time 15:00";
+    public string CommandObject;
+
+    public bool InTrigger = false;
 
     private void Awake()
     {
@@ -21,30 +24,45 @@ public class Commandobox : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Return) && InTrigger == true)
         {
             Textbox.SetActive(true);
+
+            UIText.SetActive(false);
         }
 
         if (Textbox == true && Input.GetKeyDown(KeyCode.Return))
         {
             Debug.Log(CommandText.text);
-            Debug.Log(CommandDoor);
+            Debug.Log(CommandObject);
 
-            if (CheckText(CommandText.text))
+            if (CommandText.text == CommandObject)
             {
                 Debug.Log("wright");
 
                 Textbox.SetActive(false);
+
+                InTrigger = false;
             }
 
-            Debug.Log(CheckText(CommandText.text));
-            //Textbox.SetActive(false);
+            else
+            {
+                CommandText.text = null;
+            }
         }
     }
 
-    private bool CheckText(string text)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        return string.Equals(CommandText.text, "Set Door to Time 15:00");
+        InTrigger = true;
+
+        UIText.SetActive(true);
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        InTrigger = false;
+
+        UIText.SetActive(false);
     }
 }
