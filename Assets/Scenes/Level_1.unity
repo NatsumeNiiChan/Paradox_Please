@@ -5180,7 +5180,7 @@ Transform:
   - {fileID: 432465182}
   - {fileID: 1097311360}
   m_Father: {fileID: 1477424558}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &343907911
 GameObject:
@@ -6198,7 +6198,7 @@ Transform:
   - {fileID: 436150409}
   - {fileID: 773491870}
   m_Father: {fileID: 1477424558}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &432465180
 GameObject:
@@ -6864,6 +6864,7 @@ GameObject:
   m_Component:
   - component: {fileID: 534277615}
   - component: {fileID: 534277616}
+  - component: {fileID: 534277617}
   m_Layer: 0
   m_Name: LayerSwitch
   m_TagString: Untagged
@@ -6912,6 +6913,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6, y: 5}
   m_EdgeRadius: 0
+--- !u!114 &534277617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534277614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d158a37a10ad3b49b41370da5d461d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerSprite: {fileID: 0}
+  SortingOrder: 0
 --- !u!1 &537499243
 GameObject:
   m_ObjectHideFlags: 0
@@ -14889,6 +14904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 904340039}
   - component: {fileID: 904340040}
+  - component: {fileID: 904340041}
   m_Layer: 0
   m_Name: LayerSwitch
   m_TagString: Untagged
@@ -14937,6 +14953,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &904340041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904340038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d158a37a10ad3b49b41370da5d461d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerSprite: {fileID: 0}
+  SortingOrder: 0
 --- !u!1 &915995368
 GameObject:
   m_ObjectHideFlags: 0
@@ -21399,6 +21429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1254868796}
   - component: {fileID: 1254868797}
+  - component: {fileID: 1254868798}
   m_Layer: 0
   m_Name: LayerSwitch
   m_TagString: Untagged
@@ -21447,6 +21478,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &1254868798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254868795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d158a37a10ad3b49b41370da5d461d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerSprite: {fileID: 0}
+  SortingOrder: 0
 --- !u!1 &1257013160
 GameObject:
   m_ObjectHideFlags: 0
@@ -26981,7 +27026,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1477424558}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1467248370
 BoxCollider2D:
@@ -27298,9 +27343,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1571349928}
-  - {fileID: 519637438}
   - {fileID: 410728578}
   - {fileID: 1467248369}
+  - {fileID: 321621982}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -99070,6 +99115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1740827982}
   - component: {fileID: 1740827983}
+  - component: {fileID: 1740827984}
   m_Layer: 0
   m_Name: LayerSwitch
   m_TagString: Untagged
@@ -99118,6 +99164,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6, y: 5}
   m_EdgeRadius: 0
+--- !u!114 &1740827984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740827981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d158a37a10ad3b49b41370da5d461d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerSprite: {fileID: 0}
+  SortingOrder: 0
 --- !u!1 &1752325191
 GameObject:
   m_ObjectHideFlags: 0
@@ -101443,7 +101503,7 @@ GameObject:
   - component: {fileID: 1939782228}
   - component: {fileID: 1939782229}
   m_Layer: 10
-  m_Name: Square
+  m_Name: PlayerSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101526,6 +101586,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1940135058}
   - component: {fileID: 1940135059}
+  - component: {fileID: 1940135060}
   m_Layer: 0
   m_Name: LayerSwitch
   m_TagString: Untagged
@@ -101574,6 +101635,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7, y: 6}
   m_EdgeRadius: 0
+--- !u!114 &1940135060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940135057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d158a37a10ad3b49b41370da5d461d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerSprite: {fileID: 0}
+  SortingOrder: 0
 --- !u!1 &1955170371
 GameObject:
   m_ObjectHideFlags: 0
