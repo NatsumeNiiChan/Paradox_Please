@@ -17,7 +17,7 @@ public class DayNight : MonoBehaviour
     public int Days = 1;
 
     public bool ActivateLights;
-    public GameObject[] Lights;
+    public GameObject Lights;
 
     private void Start()
     {
@@ -62,34 +62,30 @@ public class DayNight : MonoBehaviour
         {
             ppv.weight = (float)Mins / 60;
 
-            if (ActivateLights == false)
-            {
-                if (Mins > 45)
-                {
-                    for (int i = 0; i < Lights.Length; i++)
-                    {
-                        Lights[i].SetActive(true);
-                    }
-                    ActivateLights = true;
-                }
-            }
+            Lights.SetActive(true);
+
+            //if (ActivateLights == false)
+            //{
+            //    if (Mins > 45)
+            //    {
+            //        ActivateLights = true;
+            //    }
+            //}
         }
 
         if (Hours >= 6 && Hours < 7)
         {
             ppv.weight = 1 - (float)Mins / 60;
 
-            if (ActivateLights == true)
-            {
-                if (Mins > 45)
-                {
-                    for (int i = 0; i < Lights.Length; i++)
-                    {
-                        Lights[i].SetActive(false);
-                    }
-                    ActivateLights = false;
-                }
-            }
+            Lights.SetActive(false);
+
+            //if (ActivateLights == true)
+            //{
+            //    if (Mins > 45)
+            //    {
+            //        ActivateLights = false;
+            //    }
+            //}
         }
     }
 
