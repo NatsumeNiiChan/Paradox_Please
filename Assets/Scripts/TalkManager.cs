@@ -8,20 +8,18 @@ using UnityEngine.Localization.Components;
 
 public class TalkManager : MonoBehaviour
 {
-    public string Name;
-
     public LocalizeStringEvent localizedStringEvent;
     private LocalizedString originalLocalizedString;
 
     private int i = 1;
     private string keyText;
-    public int StringCount;
+    public int KeyCount;
+    
 
-    public LocalizedString localizedString = new LocalizedString{};
-    public string TableName = "NPC";
+    public LocalizedString localizedString = new LocalizedString
+    { TableReference = "NPC_One", TableEntryReference = "Text 1" };
+    public string TableName;
     private string KeyName;
-
-    public GameObject TextBox;
 
     private void Start()
     {
@@ -45,13 +43,16 @@ public class TalkManager : MonoBehaviour
 
             localizedStringEvent.StringReference.SetReference(TableName, KeyName);
 
+            Debug.Log("Dieser Table wurde aufgerufen: " + TableName);
+            Debug.Log("Dieser Key wurde aufgerufen: " + KeyName);
+
             i++;
         }
     }
 
     private void SetKeyName()
     {
-        if (i <= StringCount)
+        if (i <= KeyCount)
         {
             KeyName = "Text " + i;
         }
@@ -60,15 +61,5 @@ public class TalkManager : MonoBehaviour
         {
             i = 0;
         }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        TextBox.SetActive(true);
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        TextBox.SetActive(false);
     }
 }

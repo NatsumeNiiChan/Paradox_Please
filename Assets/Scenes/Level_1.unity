@@ -3488,6 +3488,7 @@ GameObject:
   - component: {fileID: 244741081}
   - component: {fileID: 244741082}
   - component: {fileID: 244741085}
+  - component: {fileID: 244741086}
   m_Layer: 0
   m_Name: NPCOne
   m_TagString: Untagged
@@ -3549,9 +3550,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fe95ee0733365b4fb3b720bcc66eda1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: NPC 1
   localizedStringEvent: {fileID: 2033780487}
-  StringCount: 5
+  KeyCount: 5
   localizedString:
     m_TableReference:
       m_TableCollectionName: NPC_One
@@ -3562,10 +3562,25 @@ MonoBehaviour:
     m_WaitForCompletion: 0
     m_LocalVariables: []
   TableName: NPC_One
-  TextBox: {fileID: 1120362186}
   references:
     version: 2
     RefIds: []
+--- !u!114 &244741086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244741078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e7d75b54e99b404b87f99a39bbe4b3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: NPC 1
+  TextBox: {fileID: 1120362186}
+  Text: {fileID: 2033780485}
+  Script: {fileID: 0}
 --- !u!1 &272356891
 GameObject:
   m_ObjectHideFlags: 0
@@ -102648,7 +102663,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:c5443938faeba6a40a76a98b3989ab6b
     m_TableEntryReference:
-      m_KeyId: 0
+      m_KeyId: 82861228032
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -113375,6 +113390,7 @@ GameObject:
   - component: {fileID: 2134924649}
   - component: {fileID: 2134924648}
   - component: {fileID: 2134924647}
+  - component: {fileID: 2134924650}
   m_Layer: 0
   m_Name: NPCTwo
   m_TagString: Untagged
@@ -113394,9 +113410,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fe95ee0733365b4fb3b720bcc66eda1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: NPC 2
   localizedStringEvent: {fileID: 2033780487}
-  StringCount: 3
+  KeyCount: 3
   localizedString:
     m_TableReference:
       m_TableCollectionName: GUID:ff85defe1dec51a479d564563a432469
@@ -113407,7 +113422,6 @@ MonoBehaviour:
     m_WaitForCompletion: 0
     m_LocalVariables: []
   TableName: NPC_Two
-  TextBox: {fileID: 1120362186}
   references:
     version: 2
     RefIds: []
@@ -113444,7 +113458,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2134924646}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5.76, y: 1.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -113453,6 +113467,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2134924650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134924646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e7d75b54e99b404b87f99a39bbe4b3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: NPC 2
+  TextBox: {fileID: 1120362186}
+  Text: {fileID: 2033780485}
+  Script: {fileID: 0}
 --- !u!1 &2136344304
 GameObject:
   m_ObjectHideFlags: 0
