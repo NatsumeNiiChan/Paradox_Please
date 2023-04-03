@@ -18,6 +18,8 @@ public class DayNight : MonoBehaviour
 
     public bool ActivateLights;
     public GameObject Lights;
+    public GameObject LanternOff;
+    public GameObject LanternOn;
 
     private void Start()
     {
@@ -61,31 +63,25 @@ public class DayNight : MonoBehaviour
         if (Hours >= 21 && Hours < 22)
         {
             ppv.weight = (float)Mins / 60;
+        }
 
+        if (Hours == 21 && Mins == 40)
+        {
             Lights.SetActive(true);
-
-            //if (ActivateLights == false)
-            //{
-            //    if (Mins > 45)
-            //    {
-            //        ActivateLights = true;
-            //    }
-            //}
+            LanternOff.SetActive(false);
+            LanternOn.SetActive(true);
         }
 
         if (Hours >= 6 && Hours < 7)
         {
             ppv.weight = 1 - (float)Mins / 60;
+        }
 
+        if (Hours == 6 && Mins == 20)
+        {
             Lights.SetActive(false);
-
-            //if (ActivateLights == true)
-            //{
-            //    if (Mins > 45)
-            //    {
-            //        ActivateLights = false;
-            //    }
-            //}
+            LanternOff.SetActive(true);
+            LanternOn.SetActive(false);
         }
     }
 

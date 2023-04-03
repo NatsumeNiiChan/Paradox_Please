@@ -49,3 +49,6 @@ TagManager:
   - name: Player
     uniqueID: 942861753
     locked: 0
+  - name: Light
+    uniqueID: 2644381383
+    locked: 0

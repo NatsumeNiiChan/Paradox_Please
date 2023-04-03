@@ -25,6 +25,10 @@ MonoBehaviour:
     m_Address: Assets/Localization/Menue Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: ff85defe1dec51a479d564563a432469
+    m_Address: Assets/Settings/Localization/NPCTalk/Two/NPC_Two Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: dfc19daed3277ca4baa291fcae663b2d, type: 2}
   m_SchemaSet:
