@@ -29,6 +29,22 @@ MonoBehaviour:
     m_Address: Assets/Settings/Localization/NPCTalk/Two/NPC_Two Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 948964e75eb1a494e980b8e3570b0cb9
+    m_Address: Assets/Settings/Localization/NPCTalk/Guard1/NPC_Guard_One Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: e5aa623535b1df143a800fc1247bf908
+    m_Address: Assets/Settings/Localization/NPCTalk/Three/NPC_Three Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 584fc3652c5f70845ad96d94338ef9ad
+    m_Address: Assets/Settings/Localization/NPCTalk/Boss/NPC_Boss Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 9a5903a190ea6c644a9bd7004f2e9255
+    m_Address: Assets/Settings/Localization/NPCTalk/Guard2/NPC_Guard_Two Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: dfc19daed3277ca4baa291fcae663b2d, type: 2}
   m_SchemaSet:

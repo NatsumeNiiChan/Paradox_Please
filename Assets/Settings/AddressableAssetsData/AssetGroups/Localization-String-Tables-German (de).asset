@@ -35,6 +35,30 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-de
     - Preload
+  - m_GUID: aa287ab40fdc1164dbe04423c360e838
+    m_Address: NPC_Three_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    - Preload
+  - m_GUID: ddd1c5fc3abb5f145acccb95b079e07a
+    m_Address: NPC_Boss_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    - Preload
+  - m_GUID: 388bdc8a50d40e84589156e34b120bf4
+    m_Address: NPC_Guard_Two_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    - Preload
+  - m_GUID: 8a6f50f89be1f8d42bc6b9b98def5b5c
+    m_Address: NPC_Guard_One_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: dfc19daed3277ca4baa291fcae663b2d, type: 2}
   m_SchemaSet:
