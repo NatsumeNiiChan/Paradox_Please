@@ -107591,6 +107591,7 @@ MonoBehaviour:
   Speed: 8
   Horizontal: 0
   Vertical: 0
+  PlayerAnimator: {fileID: 1939782230}
 --- !u!4 &1937197201
 Transform:
   m_ObjectHideFlags: 0
