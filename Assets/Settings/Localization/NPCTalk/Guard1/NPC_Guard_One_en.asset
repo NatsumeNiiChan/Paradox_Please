@@ -19,7 +19,19 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 9595125760
-    m_Localized: Hi
+    m_Localized: Hold on traveller!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29042751963136
+    m_Localized: 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29230757445632
+    m_Localized: 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29543249870848
+    m_Localized: 4
     m_Metadata:
       m_Items: []
   references:

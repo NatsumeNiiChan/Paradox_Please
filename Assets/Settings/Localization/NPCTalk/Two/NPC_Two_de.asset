@@ -19,15 +19,48 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 18268946432
-    m_Localized: Hallolo
+    m_Localized: Hallo Kind...
     m_Metadata:
       m_Items: []
   - m_Id: 92885614592
-    m_Localized: Miau
+    m_Localized: Woher kommst du?
     m_Metadata:
       m_Items: []
   - m_Id: 122816167936
-    m_Localized: Ich bin Katze
+    m_Localized: Ich kenne dich nicht, das heisst du bist neu her gezogen, denn ich
+      kenne jeden! Jeden einzelnen im Dorf..!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5073983395987456
+    m_Localized: Wenn du neu hier bist sollten wir eine Party veranstalten. Jeder
+      sollte eine Willkommens-Party erhalten!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5074252208930816
+    m_Localized: "Sag mal, wie heisst du eigentlich. Weisst du, Namen sind was tolles,
+      jeder hat einen anderen. Da verwechselt man die Leute nicht...nicht dass mir
+      das passieren k\xF6nnte."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5074576688676864
+    m_Localized: "Was ist eigentlich dein Lieblingessen? Weisst du, auf deiner Party
+      soll es ja nur Dinge geben, die du magst. Also ich mag \xC4pfel und Apfelkuchen
+      und Apfelmus und Apfelpasteten und..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5074919120044032
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5075088838361088
+    m_Localized: Hallo Kind...Haben wir uns schon mal gesehen? Bist du das Kind von
+      Karl? Weisst du Karl ist eine Palast Wache. Und der hat MUSKELN!!! Ein toller
+      Mann, ich hoffe er ist single.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5084187873378304
+    m_Localized: "Weisst du, Karl l\xE4uft immer Punkt 1 Uhr Nachts nach Hause...Ich
+      bleibe immer wach um ihn durch das Fenster hindurch zu beobachten."
     m_Metadata:
       m_Items: []
   references:

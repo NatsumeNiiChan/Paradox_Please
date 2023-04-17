@@ -19,7 +19,23 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 7271481344
-    m_Localized: Hi
+    m_Localized: Stop!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26274742009856
+    m_Localized: 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26451842301952
+    m_Localized: 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27078777503744
+    m_Localized: 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27219475431424
+    m_Localized: 5
     m_Metadata:
       m_Items: []
   references:

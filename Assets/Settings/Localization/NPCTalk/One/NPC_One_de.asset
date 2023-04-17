@@ -19,23 +19,31 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 82861228032
-    m_Localized: Hallo
+    m_Localized: Hallo du..
     m_Metadata:
       m_Items: []
   - m_Id: 154223116288
-    m_Localized: Gutes Wetter!
+    m_Localized: Bist du neu hier?
     m_Metadata:
       m_Items: []
   - m_Id: 2521791652823040
-    m_Localized: Hey..?
+    m_Localized: "Wir haben hier ein h\xFCbsches Gasthaus!"
     m_Metadata:
       m_Items: []
   - m_Id: 2521862083575808
-    m_Localized: Willkommen!
+    m_Localized: Falls du durstig bist solltest du dort hin gehen..
     m_Metadata:
       m_Items: []
   - m_Id: 2521878391029760
-    m_Localized: Wer bist du?
+    m_Localized: Du solltest definitiv dort hin gehen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15221326950825984
+    m_Localized: Okay...viel Spass dort!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15221515858083840
+    m_Localized: Uuuund...warst du jetzt schon beim Gasthaus?
     m_Metadata:
       m_Items: []
   references:

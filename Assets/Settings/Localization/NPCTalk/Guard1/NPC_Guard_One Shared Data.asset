@@ -19,6 +19,18 @@ MonoBehaviour:
     m_Key: Text 1
     m_Metadata:
       m_Items: []
+  - m_Id: 29042751963136
+    m_Key: Text 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29230757445632
+    m_Key: Text 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29543249870848
+    m_Key: Text 4
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

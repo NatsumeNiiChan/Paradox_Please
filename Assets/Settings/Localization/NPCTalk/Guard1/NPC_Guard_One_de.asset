@@ -19,7 +19,20 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 9595125760
-    m_Localized: Hi
+    m_Localized: Haltet ein Reisender!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29042751963136
+    m_Localized: "Die Stunde \xFCbergangszeit mit Karl ist immer so stressig...er
+      ist so selbstverliebt...ich mag ihn nicht."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29230757445632
+    m_Localized: Ich darf dich hier dennoch nicht durchlassen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29543249870848
+    m_Localized: Gehabt euch wohl!
     m_Metadata:
       m_Items: []
   references:

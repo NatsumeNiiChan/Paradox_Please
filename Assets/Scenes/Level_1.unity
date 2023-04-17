@@ -3145,8 +3145,10 @@ GameObject:
   m_Component:
   - component: {fileID: 191585340}
   - component: {fileID: 191585341}
+  - component: {fileID: 191585343}
+  - component: {fileID: 191585342}
   m_Layer: 0
-  m_Name: NPCThree
+  m_Name: NPC_Three_Guard_Bob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3193,8 +3195,51 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.5, y: 3}
+  m_Size: {x: 3, y: 3}
   m_EdgeRadius: 0
+--- !u!114 &191585342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191585339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e7d75b54e99b404b87f99a39bbe4b3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: NPC 3
+  TextBox: {fileID: 1120362186}
+  Text: {fileID: 2033780485}
+  Script: {fileID: 0}
+--- !u!114 &191585343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191585339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe95ee0733365b4fb3b720bcc66eda1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localizedStringEvent: {fileID: 2033780487}
+  KeyCount: 8
+  localizedString:
+    m_TableReference:
+      m_TableCollectionName: GUID:e5aa623535b1df143a800fc1247bf908
+    m_TableEntryReference:
+      m_KeyId: 20827471872
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  TableName: NPC_Three
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &201963715
 GameObject:
   m_ObjectHideFlags: 0
@@ -4524,7 +4569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   localizedStringEvent: {fileID: 2033780487}
-  KeyCount: 5
+  KeyCount: 7
   localizedString:
     m_TableReference:
       m_TableCollectionName: NPC_One
@@ -7998,7 +8043,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406036695}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.925, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8046,7 +8091,7 @@ SpriteMask:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8177471321811730583, guid: 87aaca0a643d54397ba969dab4fc8875, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e01bcdf841ff21a458532748c1edd56f, type: 3}
   m_MaskAlphaCutoff: 0.2
   m_FrontSortingLayerID: 0
   m_BackSortingLayerID: 0
@@ -13426,7 +13471,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 725445056}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.925, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13474,7 +13519,7 @@ SpriteMask:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8177471321811730583, guid: 87aaca0a643d54397ba969dab4fc8875, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 443c674dd096efb4e9d542ae58549c38, type: 3}
   m_MaskAlphaCutoff: 0.2
   m_FrontSortingLayerID: 0
   m_BackSortingLayerID: 0
@@ -19423,7 +19468,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913927815}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.925, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19471,7 +19516,7 @@ SpriteMask:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8177471321811730583, guid: 87aaca0a643d54397ba969dab4fc8875, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 84910ba965ec5ab44a425339c7175358, type: 3}
   m_MaskAlphaCutoff: 0.2
   m_FrontSortingLayerID: 0
   m_BackSortingLayerID: 0
@@ -23354,7 +23399,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062323578}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.925, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23402,7 +23447,7 @@ SpriteMask:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8177471321811730583, guid: 87aaca0a643d54397ba969dab4fc8875, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 847ff0a8cce48bf4db09e569874acb7d, type: 3}
   m_MaskAlphaCutoff: 0.2
   m_FrontSortingLayerID: 0
   m_BackSortingLayerID: 0
@@ -25187,7 +25232,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109494081}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.925, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25235,7 +25280,7 @@ SpriteMask:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8177471321811730583, guid: 87aaca0a643d54397ba969dab4fc8875, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 847ff0a8cce48bf4db09e569874acb7d, type: 3}
   m_MaskAlphaCutoff: 0.2
   m_FrontSortingLayerID: 0
   m_BackSortingLayerID: 0
@@ -29181,8 +29226,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1272080383}
   - component: {fileID: 1272080386}
+  - component: {fileID: 1272080388}
+  - component: {fileID: 1272080387}
   m_Layer: 0
-  m_Name: NPC_Guard2
+  m_Name: NPC_Guard2_Karl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29229,8 +29276,51 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.5, y: 3}
+  m_Size: {x: 3, y: 3}
   m_EdgeRadius: 0
+--- !u!114 &1272080387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272080382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e7d75b54e99b404b87f99a39bbe4b3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Guard 2
+  TextBox: {fileID: 1120362186}
+  Text: {fileID: 2033780485}
+  Script: {fileID: 0}
+--- !u!114 &1272080388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272080382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe95ee0733365b4fb3b720bcc66eda1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localizedStringEvent: {fileID: 2033780487}
+  KeyCount: 5
+  localizedString:
+    m_TableReference:
+      m_TableCollectionName: GUID:9a5903a190ea6c644a9bd7004f2e9255
+    m_TableEntryReference:
+      m_KeyId: 7271481344
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  TableName: NPC_Guard_Two
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &1272488075
 GameObject:
   m_ObjectHideFlags: 0
@@ -31430,8 +31520,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1363732248}
   - component: {fileID: 1363732251}
+  - component: {fileID: 1363732253}
+  - component: {fileID: 1363732252}
   m_Layer: 0
-  m_Name: NPC_Guard1
+  m_Name: NPC_Guard1_Horst
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31478,8 +31570,51 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.5, y: 3}
+  m_Size: {x: 3, y: 3}
   m_EdgeRadius: 0
+--- !u!114 &1363732252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363732247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e7d75b54e99b404b87f99a39bbe4b3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Guard 1
+  TextBox: {fileID: 1120362186}
+  Text: {fileID: 2033780485}
+  Script: {fileID: 0}
+--- !u!114 &1363732253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363732247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe95ee0733365b4fb3b720bcc66eda1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localizedStringEvent: {fileID: 2033780487}
+  KeyCount: 4
+  localizedString:
+    m_TableReference:
+      m_TableCollectionName: GUID:948964e75eb1a494e980b8e3570b0cb9
+    m_TableEntryReference:
+      m_KeyId: 9595125760
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  TableName: NPC_Guard_One
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &1370882443
 GameObject:
   m_ObjectHideFlags: 0
@@ -32658,6 +32793,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1392040246}
   - component: {fileID: 1392040248}
+  - component: {fileID: 1392040250}
+  - component: {fileID: 1392040249}
   m_Layer: 0
   m_Name: NPC Boss
   m_TagString: Untagged
@@ -32706,8 +32843,51 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.5, y: 3}
+  m_Size: {x: 3, y: 3}
   m_EdgeRadius: 0
+--- !u!114 &1392040249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392040245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e7d75b54e99b404b87f99a39bbe4b3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Boss
+  TextBox: {fileID: 1120362186}
+  Text: {fileID: 2033780485}
+  Script: {fileID: 0}
+--- !u!114 &1392040250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392040245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe95ee0733365b4fb3b720bcc66eda1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localizedStringEvent: {fileID: 2033780487}
+  KeyCount: 0
+  localizedString:
+    m_TableReference:
+      m_TableCollectionName: GUID:584fc3652c5f70845ad96d94338ef9ad
+    m_TableEntryReference:
+      m_KeyId: 11541282816
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  TableName: NPC_Boss
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &1392565095
 GameObject:
   m_ObjectHideFlags: 0
@@ -37813,7 +37993,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1558815903}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.05, y: 0.925, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -37861,7 +38041,7 @@ SpriteMask:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8177471321811730583, guid: 87aaca0a643d54397ba969dab4fc8875, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 443c674dd096efb4e9d542ae58549c38, type: 3}
   m_MaskAlphaCutoff: 0.2
   m_FrontSortingLayerID: 0
   m_BackSortingLayerID: 0
@@ -125444,7 +125624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   localizedStringEvent: {fileID: 2033780487}
-  KeyCount: 3
+  KeyCount: 9
   localizedString:
     m_TableReference:
       m_TableCollectionName: GUID:ff85defe1dec51a479d564563a432469

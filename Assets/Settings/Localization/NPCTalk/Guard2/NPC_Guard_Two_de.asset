@@ -19,7 +19,24 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 7271481344
-    m_Localized: Hi
+    m_Localized: Stopp!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26274742009856
+    m_Localized: "Wer seid Ihr und was f\xFChrt euch her? Ich kenne euch nicht, Fremder."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26451842301952
+    m_Localized: Nicht weiter, oder ich halte Euch mit meinen Muskeln auf!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27078777503744
+    m_Localized: "Ich bin der sch\xF6nste und muskul\xF6seste Mann im Dorf! Ihr habt
+      keine Chance!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27219475431424
+    m_Localized: Geht nun und lasst euch nicht nochmal blicken!
     m_Metadata:
       m_Items: []
   references:

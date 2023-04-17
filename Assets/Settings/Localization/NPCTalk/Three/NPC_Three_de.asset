@@ -19,7 +19,42 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 20827471872
-    m_Localized: "Sch\xF6nes Wetter heute."
+    m_Localized: "Seid gegr\xFCsst Reisender!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23991157391360
+    m_Localized: Ihr seid wohl erst vor kurzem hier angekommen. Euer Gesicht scheint
+      mir unbekannt..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24256371621888
+    m_Localized: "Es scheint als w\xFCrdet Ihr gerne eure Zeit in Tavernen vertreiben...wagt
+      ihr ein Gl\xFCcksspiel gegen mich?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24559305228288
+    m_Localized: Nicht? Naja ich werde mich wohl ohnehin bald mit Horst treffen,
+      er hat seine Arbeitszeit gleich abgesessen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24773957124096
+    m_Localized: "Wisst Ihr, Horst ist mein Freund und Gef\xE4hrte, ausserdem arbeiten
+      wir am selben Ort."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25575375372288
+    m_Localized: "Das Schloss ist ein sch\xF6ner Ort, Ihr solltet es besichtigen.
+      Wisst Ihr, durch unser tolles 3-Schicht System haben wir immer mindestens eine
+      Wache dort stehen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26057628057600
+    m_Localized: "Naja, es ist schon sp\xE4t...Horst m\xFCsste um 18 Uhr fertig sein,
+      er wird mir Gesellschaft leisten..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26335630721024
+    m_Localized: Gehabt Euch wohl!
     m_Metadata:
       m_Items: []
   references:
