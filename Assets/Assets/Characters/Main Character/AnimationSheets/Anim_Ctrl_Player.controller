@@ -36,13 +36,13 @@ AnimatorController:
   m_Name: Anim_Ctrl_Player
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Sidewards
+  - m_Name: Sideward
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: Forwards
+  - m_Name: Forward
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -97,16 +97,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: Sidewards
+    m_ConditionEvent: Sideward
     m_EventTreshold: -0.5
   - m_ConditionMode: 4
-    m_ConditionEvent: Sidewards
+    m_ConditionEvent: Sideward
     m_EventTreshold: 0.5
   - m_ConditionMode: 3
-    m_ConditionEvent: Forwards
+    m_ConditionEvent: Forward
     m_EventTreshold: -0.5
   - m_ConditionMode: 4
-    m_ConditionEvent: Forwards
+    m_ConditionEvent: Forward
     m_EventTreshold: 0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4098077491990572449}
@@ -159,13 +159,13 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
-    m_ConditionEvent: Sidewards
+    m_ConditionEvent: Sideward
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: Forwards
+    m_ConditionEvent: Forward
     m_EventTreshold: -0.5
   - m_ConditionMode: 4
-    m_ConditionEvent: Forwards
+    m_ConditionEvent: Forward
     m_EventTreshold: 0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6993311553290242453}
@@ -190,13 +190,13 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: Sidewards
+    m_ConditionEvent: Sideward
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: Forwards
+    m_ConditionEvent: Forward
     m_EventTreshold: -0.5
   - m_ConditionMode: 4
-    m_ConditionEvent: Forwards
+    m_ConditionEvent: Forward
     m_EventTreshold: 0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2781426491569939507}
@@ -249,16 +249,16 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: Sidewards
+    m_ConditionEvent: Sideward
     m_EventTreshold: -0.5
   - m_ConditionMode: 4
-    m_ConditionEvent: Sidewards
+    m_ConditionEvent: Sideward
     m_EventTreshold: 0.5
   - m_ConditionMode: 3
-    m_ConditionEvent: Forwards
+    m_ConditionEvent: Forward
     m_EventTreshold: -0.5
   - m_ConditionMode: 4
-    m_ConditionEvent: Forwards
+    m_ConditionEvent: Forward
     m_EventTreshold: 0.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4098077491990572449}
