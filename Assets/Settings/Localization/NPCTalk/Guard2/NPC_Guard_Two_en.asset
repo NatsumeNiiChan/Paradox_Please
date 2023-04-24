@@ -23,19 +23,22 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 26274742009856
-    m_Localized: 2
+    m_Localized: "Who are you? What\xB4s bringing you here? I don\xB4t know you,
+      stranger."
     m_Metadata:
       m_Items: []
   - m_Id: 26451842301952
-    m_Localized: 3
+    m_Localized: "Stop right where you are or I\xB4ll have to stop you with my manly
+      muscles!"
     m_Metadata:
       m_Items: []
   - m_Id: 27078777503744
-    m_Localized: 4
+    m_Localized: "I\xB4m the prettiest and most muscular man in this village! You
+      have no chance!"
     m_Metadata:
       m_Items: []
   - m_Id: 27219475431424
-    m_Localized: 5
+    m_Localized: Now go and never come again!
     m_Metadata:
       m_Items: []
   references:

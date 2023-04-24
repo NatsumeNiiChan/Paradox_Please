@@ -23,35 +23,44 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 92885614592
-    m_Localized: 2
+    m_Localized: Where you comin from?
     m_Metadata:
       m_Items: []
   - m_Id: 122816167936
-    m_Localized: 3
+    m_Localized: "Don\xB4t know you, means you neeew, I know everyone! Every single
+      person in this village."
     m_Metadata:
       m_Items: []
   - m_Id: 5073983395987456
-    m_Localized: 4
+    m_Localized: "Since you\xB4re new, we should throw a party. Everyone should have
+      a welcome party."
     m_Metadata:
       m_Items: []
   - m_Id: 5074252208930816
-    m_Localized: 5
+    m_Localized: "Tell me, what\xB4s your name? Know, names being nice, everyone
+      got a different one. You never be confused with who being who...not that this
+      would ever happen to me!"
     m_Metadata:
       m_Items: []
   - m_Id: 5074576688676864
-    m_Localized: 6
+    m_Localized: "What\xB4s your food anyway? You know, since we throw a party for
+      you the food should be picked for you. Well, I like apples and applepies and
+      smashed apples and applecrumble and..."
     m_Metadata:
       m_Items: []
   - m_Id: 5074919120044032
-    m_Localized: 7
+    m_Localized: ...
     m_Metadata:
       m_Items: []
   - m_Id: 5075088838361088
-    m_Localized: 8
+    m_Localized: "Hello Kid...Have we meet before? Are you Karls kid? You know, Karl\xB4s
+      one of royal guards...And he iis soooo MUSCULAR!!!! Such a perfect man, hope
+      he\xB4s single."
     m_Metadata:
       m_Items: []
   - m_Id: 5084187873378304
-    m_Localized: 9
+    m_Localized: You know, Karl always walk home at 1am...I always stay up until
+      then to stalk him through the window.
     m_Metadata:
       m_Items: []
   references:
