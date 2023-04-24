@@ -17,8 +17,9 @@ public class Commandobox : MonoBehaviour
     {
         Textbox = GameObject.Find("CommandoBox");
         CommandText = GameObject.Find("InputFieldCommand").GetComponent<TMP_InputField>();
+        UIText = GameObject.Find("PressEnter");
 
-
+        UIText.SetActive(false);
         Textbox.SetActive(false);
     }
 
@@ -31,7 +32,7 @@ public class Commandobox : MonoBehaviour
             UIText.SetActive(false);
         }
 
-        if (Textbox == true && Input.GetKeyDown(KeyCode.Return))
+        if (Textbox.activeInHierarchy && Input.GetKeyDown(KeyCode.Return))
         {
             Debug.Log(CommandText.text);
             Debug.Log(CommandObject);
@@ -54,9 +55,11 @@ public class Commandobox : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        InTrigger = true;
+        Debug.Log("In Trigger");
 
         UIText.SetActive(true);
+        
+        InTrigger = true;
     }
 
     private void OnTriggerExit2D(Collider2D collision)
