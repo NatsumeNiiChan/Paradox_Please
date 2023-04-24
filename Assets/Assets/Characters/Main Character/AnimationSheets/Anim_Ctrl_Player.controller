@@ -223,7 +223,7 @@ AnimatorStateTransition:
     m_ConditionEvent: Sideward
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: Sideward
+    m_ConditionEvent: Forward
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3250185096495893396}
