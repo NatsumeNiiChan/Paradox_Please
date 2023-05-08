@@ -8,6 +8,8 @@ public class Commandobox : MonoBehaviour
     public GameObject Textbox;
     public TMP_InputField CommandText;
     public GameObject UIText;
+    public GameObject ObjectOne;
+    public GameObject ObjectTwo;
 
     public string CommandObject;
 
@@ -40,6 +42,9 @@ public class Commandobox : MonoBehaviour
             if (CommandText.text == CommandObject)
             {
                 Debug.Log("wright");
+
+                ObjectOne.SetActive(false);
+                ObjectTwo.SetActive(true);
 
                 Textbox.SetActive(false);
 
