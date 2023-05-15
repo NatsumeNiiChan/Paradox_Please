@@ -17,12 +17,12 @@ public class Commandobox : MonoBehaviour
 
     private void Awake()
     {
-        Textbox = GameObject.Find("CommandoBox");
-        CommandText = GameObject.Find("InputFieldCommand").GetComponent<TMP_InputField>();
-        UIText = GameObject.Find("PressEnter");
+        //Textbox = GameObject.Find("CommandoBox");
+        //CommandText = GameObject.Find("InputFieldCommand").GetComponent<TMP_InputField>();
+        //UIText = GameObject.Find("PressEnter");
 
-        UIText.SetActive(false);
-        Textbox.SetActive(false);
+        //UIText.SetActive(false);
+        //Textbox.SetActive(false);
     }
 
     private void Update()
