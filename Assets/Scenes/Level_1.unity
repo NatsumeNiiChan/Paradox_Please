@@ -3748,6 +3748,7 @@ MonoBehaviour:
   UIText: {fileID: 468401158}
   ObjectOne: {fileID: 1195077371}
   ObjectTwo: {fileID: 372585791}
+  PlayerScript: {fileID: 1937197200}
   CommandObject: Kill Bob
   InTrigger: 0
 --- !u!1 &201963715
@@ -5317,6 +5318,7 @@ MonoBehaviour:
   UIText: {fileID: 468401158}
   ObjectOne: {fileID: 59901548}
   ObjectTwo: {fileID: 341957336}
+  PlayerScript: {fileID: 1937197200}
   CommandObject: Kill Gertrude
   InTrigger: 0
 --- !u!1 &272356891
@@ -5352,7 +5354,7 @@ MonoBehaviour:
   m_IsGlobal: 1
   priority: 0
   blendDistance: 0
-  weight: 0
+  weight: 1
   sharedProfile: {fileID: 11400000, guid: 2baaedc1ab73cc44a8b833f87b39d7e3, type: 2}
 --- !u!4 &272356893
 Transform:
@@ -5384,12 +5386,12 @@ MonoBehaviour:
   TimeDisplay: {fileID: 813331585}
   DayDisplay: {fileID: 1370882444}
   ppv: {fileID: 0}
-  Tick: 0
+  Tick: 1000
   Seconds: 0
   Mins: 0
   Hours: 0
   Days: 1
-  ActivateLights: 0
+  ActivateLights: 1
   Lights: {fileID: 1540714226}
   LanternOff: {fileID: 1553252817}
   LanternOn: {fileID: 445104447}
@@ -7204,6 +7206,7 @@ MonoBehaviour:
   UIText: {fileID: 468401158}
   ObjectOne: {fileID: 432465180}
   ObjectTwo: {fileID: 1097311358}
+  PlayerScript: {fileID: 0}
   CommandObject: Set Door to Time 15:00
   InTrigger: 0
 --- !u!61 &321621981
@@ -11092,6 +11095,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 497481332}
   m_CullTransparentMesh: 1
+--- !u!1 &504171218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 504171220}
+  - component: {fileID: 504171219}
+  m_Layer: 0
+  m_Name: TimeHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &504171219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504171218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c6fd7d84f7dfa548a14cacaa68525fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimeScript: {fileID: 272356894}
+  GuardOne: {fileID: 1363732247}
+  GuardTwo: {fileID: 1272080382}
+  GuardThree: {fileID: 191585339}
+  NPCOne: {fileID: 244741078}
+  NPCTwo: {fileID: 2134924646}
+  Door: {fileID: 0}
+--- !u!4 &504171220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504171218}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.7380546, y: 5.930294, z: -0.31776235}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &516742301
 GameObject:
   m_ObjectHideFlags: 0
@@ -32924,6 +32978,7 @@ MonoBehaviour:
   UIText: {fileID: 468401158}
   ObjectOne: {fileID: 156443194}
   ObjectTwo: {fileID: 433833698}
+  PlayerScript: {fileID: 1937197200}
   CommandObject: Kill Karl
   InTrigger: 0
 --- !u!1 &1272488075
@@ -35254,6 +35309,7 @@ MonoBehaviour:
   UIText: {fileID: 468401158}
   ObjectOne: {fileID: 343582311}
   ObjectTwo: {fileID: 404769873}
+  PlayerScript: {fileID: 1937197200}
   CommandObject: Kill Horst
   InTrigger: 0
 --- !u!1 &1367083268
@@ -36645,6 +36701,7 @@ MonoBehaviour:
   UIText: {fileID: 468401158}
   ObjectOne: {fileID: 2011416802}
   ObjectTwo: {fileID: 1028168935}
+  PlayerScript: {fileID: 1937197200}
   CommandObject: Kill Boss
   InTrigger: 0
 --- !u!1 &1392565095
@@ -42196,7 +42253,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1540714227
 Transform:
   m_ObjectHideFlags: 0
@@ -131330,6 +131387,7 @@ MonoBehaviour:
   UIText: {fileID: 468401158}
   ObjectOne: {fileID: 1797138470}
   ObjectTwo: {fileID: 961343945}
+  PlayerScript: {fileID: 1937197200}
   CommandObject: Kill Margret
   InTrigger: 0
 --- !u!1 &2136344304

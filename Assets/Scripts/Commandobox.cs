@@ -10,6 +10,7 @@ public class Commandobox : MonoBehaviour
     public GameObject UIText;
     public GameObject ObjectOne;
     public GameObject ObjectTwo;
+    public PlayerMovement PlayerScript;
 
     public string CommandObject;
 
@@ -32,6 +33,8 @@ public class Commandobox : MonoBehaviour
             Textbox.SetActive(true);
 
             UIText.SetActive(false);
+
+            PlayerScript.enabled = false;
         }
 
         if (Textbox.activeInHierarchy && Input.GetKeyDown(KeyCode.Return))
@@ -49,6 +52,17 @@ public class Commandobox : MonoBehaviour
                 Textbox.SetActive(false);
 
                 InTrigger = false;
+
+                PlayerScript.enabled = true;
+            }
+
+            else if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                Textbox.SetActive(false);
+
+                InTrigger = false;
+
+                PlayerScript.enabled = true;
             }
 
             else
