@@ -7207,7 +7207,7 @@ MonoBehaviour:
   ObjectOne: {fileID: 432465180}
   ObjectTwo: {fileID: 1097311358}
   PlayerScript: {fileID: 0}
-  CommandObject: Set Door to Time 15:00
+  CommandObject: Set Door to Time 14:00
   InTrigger: 0
 --- !u!61 &321621981
 BoxCollider2D:

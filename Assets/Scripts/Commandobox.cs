@@ -44,7 +44,7 @@ public class Commandobox : MonoBehaviour
 
             if (CommandText.text == CommandObject)
             {
-                Debug.Log("wright");
+                Debug.Log("right");
 
                 ObjectOne.SetActive(false);
                 ObjectTwo.SetActive(true);
@@ -56,19 +56,21 @@ public class Commandobox : MonoBehaviour
                 PlayerScript.enabled = true;
             }
 
-            else if (Input.GetKeyDown(KeyCode.LeftShift))
-            {
-                Textbox.SetActive(false);
-
-                InTrigger = false;
-
-                PlayerScript.enabled = true;
-            }
-
             else
             {
                 CommandText.text = null;
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            Debug.Log("false");
+
+            Textbox.SetActive(false);
+
+            InTrigger = false;
+
+            PlayerScript.enabled = true;
         }
     }
 
